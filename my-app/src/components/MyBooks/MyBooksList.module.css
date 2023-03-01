@@ -1,0 +1,78 @@
+.searching {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.pic {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	min-height: 75vh;
+	color: white;
+	background: url(../../Graphics/my_books.webp);
+	background-position: center;
+	background-size: cover;
+}
+
+.fav-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 3px;
+	font-size: small;
+	padding: 3px 20px 3px 20px;
+}
+
+.title {
+	margin: auto;
+}
+
+.search-loop {
+	color: black;
+}
+
+.search-form-elem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	padding: 0.5rem 2.8rem;
+	max-width: 510px;
+	border-radius: 3.8rem;
+	background-color: white;
+	border: 1px gray solid;
+}
+
+.input {
+	font-size: 1.5rem;
+	padding: 0.6rem;
+	border: none;
+	outline: none;
+	font-family: 'EB Garamond';
+}
+
+.search-form-elem input::placeholder {
+	opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+	.input {
+		padding: 0.6rem 0;
+		font-size: 1.2rem;
+	}
+
+	.search-form-elem {
+		margin: 0 1rem;
+		padding: 0.5rem 1.5rem;
+	}
+}

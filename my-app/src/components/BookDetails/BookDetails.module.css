@@ -1,0 +1,349 @@
+.card-book {
+  display: flex;
+  padding: 2rem 2rem;
+  width: 900px;
+  max-width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  font-size: revert;
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.279);
+  margin-top: 2rem;
+}
+
+.cover-img img {
+  padding-right: 2rem;
+  max-height: 300px;
+}
+
+img.panda-img {
+  width: 30px;
+}
+
+.box-panda {
+  padding: 0.8rem 0;
+}
+
+.bookdetalis {
+  min-width: 400px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  font-size: small;
+  margin-top: 50px;
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.279);
+}
+
+.pic {
+  width: 200px;
+  height: 320px;
+  margin-right: 40px;
+}
+
+.all-page {
+  background-color: rgb(235, 235, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.backtobrowse {
+  margin-right: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.279);
+  background-color: white;
+}
+
+.backplusdescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 70%;
+}
+
+.recommendations {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  align-content: center;
+}
+
+.imgbook {
+  height: 150px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+
+.commentsarea {
+  display: flex;
+  justify-content: center;
+}
+
+.comments {
+  width: 900px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.279);
+}
+
+.pandacomment {
+  width: 20px;
+  height: 30px;
+}
+
+.comment {
+  width: 650px;
+  height: 50px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 3px 3px rgba(128, 128, 128, 0.279);
+  margin-left: 60px;
+  text-align: start;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.addtofavorites {
+  border: none;
+  background: white;
+  font-size: smaller;
+}
+
+.gotocomments {
+  border: none;
+  background: white;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.info {
+  width: 500px;
+}
+
+.titlecomment {
+  margin-left: 20px;
+}
+
+.typecomment {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.buttonadd {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  height: 25px;
+  padding: 5px;
+  font-size: smaller;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding: 0.8rem 0;
+}
+
+.btn-add-to-fav::after {
+  content: "Add to favourite";
+}
+
+.btn-add-to-fav {
+  margin-right: 5px;
+}
+
+.btn-add-to-fav:disabled::after {
+  cursor: default;
+  content: "Already added";
+}
+
+.btn-add-to-fav:disabled {
+  background-color: rgb(189, 184, 184);
+  margin-bottom: 10px;
+}
+
+
+.booksection {
+  background-color: aquamarine;
+}
+
+.comment {
+  width: 600px;
+}
+
+.commentSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  width: 900px;
+  max-width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  font-size: revert;
+  justify-content: space-around;
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.279);
+}
+
+.commentSection {
+  width: 100%;
+}
+
+.pComment {
+  font-style: italic;
+  color: gray;
+  font-size: smaller;
+  text-align: start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.typecommentarea {
+  margin-left: 7px;
+  margin-right: 7px;
+  display: flex;
+  width: 600px;
+  border: none;
+  border-bottom: solid 1px;
+  font-family: "EB Garamond";
+  height: 2em;
+  font-style:italic;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.addcomment {
+  min-width: 140px;
+}
+
+.cardbookwrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ratingContainer {
+  width: 250px;
+}
+span.react-simple-star-rating {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.backBtnWrapper {
+  display: flex;
+  width: 100px;
+  max-width: 20%;
+}
+
+.backBtn {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: white;
+  color: black;
+  border: black 2px solid;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.backBtn:hover {
+  background-color: black;
+  color: white;
+  transition: 10;
+  cursor: pointer;
+}
+
+.links {
+  color: blue;
+}
+
+.content > div {
+  margin-bottom: 10px;
+}
+
+.infobook {
+  margin-bottom: 1px;
+}
+
+
+@media (max-width: 768px) {
+  .all-page {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+  }
+
+  .card-book {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card-book > div {
+    max-width: 100%;
+  }
+
+  .main-img {
+    margin-bottom: 30px;
+  }
+
+  .commentSectionWrapper {
+    justify-content: center;
+    margin: 1rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cover-img img {
+    padding-right: 0;
+  }
+
+  .typecomment {
+    width: 100%;
+  }
+
+  .typecommentarea {
+    margin-left: 7px;
+    max-width: 200px;
+  }
+
+  .description {
+    word-wrap: break-word;
+  }
+
+  .content {
+    width: 90%;
+  }
+}
+
+@media (max-width:460px) {
+  .addcomment {
+    min-width: 80px;
+  }
+}

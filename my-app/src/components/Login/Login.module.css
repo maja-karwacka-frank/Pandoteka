@@ -1,0 +1,118 @@
+.wrongInput {
+	background-color: #e62b2b7a;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px #ccc;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-right: 200px;
+	gap: 10px;
+}
+
+.login {
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	box-shadow: 0 0 10px #ccc;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 30px;
+}
+.item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+input.login {
+	margin-left: 10px;
+	background-color: #eee;
+	border-style: hidden;
+}
+
+label {
+	margin-left: auto;
+}
+
+.logBtn {
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	margin: auto;
+	background-color: black;
+	color: white;
+	border: black 2px solid;
+}
+
+.logBtn:hover {
+	background-color: white;
+	color: black;
+	transition: 10;
+	cursor: pointer;
+}
+
+.backBtn {
+	width: 75px;
+	height: 75px;
+	border-radius: 20px;
+	margin: auto;
+	background-color: white;
+	color: black;
+	border: black 2px solid;
+}
+
+.backBtn:hover {
+	background-color: black;
+	color: white;
+	transition: 10;
+	cursor: pointer;
+}
+
+.positionBtn {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.arrow {
+	font-size: 1.35em;
+}
+
+.userIcon {
+	width: 45px;
+	height: 60px;
+}
+
+.error {
+	display: flex;
+	align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+	.item {
+		flex-direction: column;
+		justify-content: center;
+		gap: 30px;
+		margin: auto;
+	}
+
+	input.login {
+		margin: auto;
+	}
+
+	label {
+		margin: auto;
+	}
+
+	.wrongInput {
+		margin: auto;
+	}
+}

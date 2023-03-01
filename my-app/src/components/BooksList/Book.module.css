@@ -1,0 +1,66 @@
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.5rem;
+  padding: 0.8rem 1rem;
+  width: 200px;
+  height: 450px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px rgba(155, 155, 155, 0.279);
+  transition: 0.2s;
+  box-sizing: content-box;
+}
+
+.book:hover {
+  box-shadow: 0 0 3px 3px rgba(82, 81, 81, 0.279);
+  transform: scale(1.05);
+}
+
+.book button:hover {
+  background-color: rgb(189, 184, 184);
+}
+
+.book button::after {
+  content: "Add to favorite";
+}
+
+.cover {
+  width: 200px;
+  height: 280px;
+}
+
+.book button:disabled::after {
+  cursor: default;
+  content: "Already added";
+}
+
+.book button:disabled {
+  background-color: rgb(189, 184, 184);
+}
+
+.book button:disabled:hover {
+  background-color: rgb(189, 184, 184);
+}
+
+.overflowEllipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+  font-style: oblique;
+  font-family: serif;
+  margin: 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.publishYear {
+  color:#767474
+}

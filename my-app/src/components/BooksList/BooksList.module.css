@@ -1,0 +1,12 @@
+.books-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+h3 {
+  padding: 0 1.5rem;
+}
